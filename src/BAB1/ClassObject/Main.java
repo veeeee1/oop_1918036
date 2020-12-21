@@ -1,0 +1,35 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package BAB1.ClassObject;
+
+/**
+ *
+ * @author ASUS
+ */
+public class Main {
+    public static void main(String[] args) {
+ // membuat objek
+     
+        Kendaraan mobil = new Kendaraan("mobi","merah");
+ 
+            mobil.nama = "Mobil";
+            mobil.warna = "Merah";
+ 
+            System.out.println("Nama Kendaraan : " + mobil.nama);
+            System.out.println("Warna Kendaraan : " + mobil.warna);
+            System.out.println("Jumlah Roda : " +
+                    
+            mobil.jmlRoda(4)+ "\n");
+            System.out.println("Cara kendaraan bergerak : ");
+            System.out.print("Saat maju : "); mobil.kendaraanMaju();
+            System.out.print("Saat mundur : ");
+        
+            mobil.kendaraanMundur();
+            System.out.print("Saat berhenti : " +mobil.nama);
+            
+            mobil.kendaraanBerhenti();
+ }
+
+}
